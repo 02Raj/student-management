@@ -17,7 +17,7 @@ public class StudentController {
 
     private final StudentService studentService;
 
-    // Constructor injection
+
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }

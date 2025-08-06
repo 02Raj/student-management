@@ -10,12 +10,12 @@ public class ApiResponse {
     private boolean success;
     private String message;
     private int status;
-    private Object data;  // to hold any extra response data
+    private Object data;
 
-    // No-args constructor
+
     public ApiResponse() {}
 
-    // All-args constructor
+
     public ApiResponse(boolean success, String message, int status, Object data) {
         this.success = success;
         this.message = message;

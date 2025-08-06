@@ -75,10 +75,7 @@ public class StudentServiceImpl implements StudentService {
 
         Student updatedStudent = studentRepository.save(student);
 
-        // Optionally, send Kafka event for update
-        // ObjectMapper mapper = new ObjectMapper();
-        // String event = mapper.writeValueAsString(mapToDTO(updatedStudent));
-        // kafkaProducerService.sendMessage("StudentUpdated:" + event);
+
 
         return mapToDTO(updatedStudent);
     }

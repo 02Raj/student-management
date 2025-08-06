@@ -9,6 +9,6 @@ public class KafkaConsumerService {
     @KafkaListener(topics = "school-events", groupId = "school-group")
     public void consume(String message) {
         System.out.println("Received Kafka message: " + message);
-        // Handle the message: e.g., log, trigger email, update audit logs, etc.
+
     }
 }

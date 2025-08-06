@@ -9,7 +9,7 @@ public class TeacherDTO {
     private String lastName;
     private String email;
 
-    // Constructors
+
     public TeacherDTO() {
     }
 
